@@ -1,0 +1,20 @@
+Write a program to convert an int variable to String using an inbuilt function of String class.
+
+package session7;
+
+public class inttostring
+{
+public static void main(String[] args)
+{
+	
+int val1=90;
+String s1="Hi";
+String s2=Integer.toString(val1);
+System.out.println("Converting integer to string using tostring():"+s2);
+String s3=s1.valueOf(val1);
+System.out.println("Converting integer to string using valueof():"+s3);
+System.out.println("Comparing the two string :"+s2.equals(s3));
+
+}
+
+}
